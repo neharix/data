@@ -1,0 +1,1316 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add file",
+    "content_type": 6,
+    "codename": "add_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change file",
+    "content_type": 6,
+    "codename": "change_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete file",
+    "content_type": 6,
+    "codename": "delete_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view file",
+    "content_type": 6,
+    "codename": "view_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add flags from unsafety",
+    "content_type": 7,
+    "codename": "add_flagsfromunsafety"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change flags from unsafety",
+    "content_type": 7,
+    "codename": "change_flagsfromunsafety"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete flags from unsafety",
+    "content_type": 7,
+    "codename": "delete_flagsfromunsafety"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view flags from unsafety",
+    "content_type": 7,
+    "codename": "view_flagsfromunsafety"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add team",
+    "content_type": 8,
+    "codename": "add_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change team",
+    "content_type": 8,
+    "codename": "change_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete team",
+    "content_type": 8,
+    "codename": "delete_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view team",
+    "content_type": 8,
+    "codename": "view_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 9,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 9,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 9,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 9,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add answer",
+    "content_type": 10,
+    "codename": "add_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change answer",
+    "content_type": 10,
+    "codename": "change_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete answer",
+    "content_type": 10,
+    "codename": "delete_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view answer",
+    "content_type": 10,
+    "codename": "view_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add challenge",
+    "content_type": 11,
+    "codename": "add_challenge"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change challenge",
+    "content_type": 11,
+    "codename": "change_challenge"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete challenge",
+    "content_type": 11,
+    "codename": "delete_challenge"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view challenge",
+    "content_type": 11,
+    "codename": "view_challenge"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add hash response",
+    "content_type": 12,
+    "codename": "add_hashresponse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change hash response",
+    "content_type": 12,
+    "codename": "change_hashresponse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete hash response",
+    "content_type": 12,
+    "codename": "delete_hashresponse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view hash response",
+    "content_type": 12,
+    "codename": "view_hashresponse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add hint",
+    "content_type": 13,
+    "codename": "add_hint"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change hint",
+    "content_type": 13,
+    "codename": "change_hint"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete hint",
+    "content_type": 13,
+    "codename": "delete_hint"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view hint",
+    "content_type": 13,
+    "codename": "view_hint"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add quizz",
+    "content_type": 14,
+    "codename": "add_quizz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change quizz",
+    "content_type": 14,
+    "codename": "change_quizz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete quizz",
+    "content_type": 14,
+    "codename": "delete_quizz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view quizz",
+    "content_type": 14,
+    "codename": "view_quizz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add true answers",
+    "content_type": 15,
+    "codename": "add_trueanswers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change true answers",
+    "content_type": 15,
+    "codename": "change_trueanswers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete true answers",
+    "content_type": 15,
+    "codename": "delete_trueanswers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view true answers",
+    "content_type": 15,
+    "codename": "view_trueanswers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add xlsxes",
+    "content_type": 16,
+    "codename": "add_xlsxes"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change xlsxes",
+    "content_type": 16,
+    "codename": "change_xlsxes"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete xlsxes",
+    "content_type": 16,
+    "codename": "delete_xlsxes"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view xlsxes",
+    "content_type": 16,
+    "codename": "view_xlsxes"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add book",
+    "content_type": 17,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change book",
+    "content_type": 17,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete book",
+    "content_type": 17,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view book",
+    "content_type": 17,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add ctf task objects",
+    "content_type": 18,
+    "codename": "add_ctftaskobjects"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change ctf task objects",
+    "content_type": 18,
+    "codename": "change_ctftaskobjects"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete ctf task objects",
+    "content_type": 18,
+    "codename": "delete_ctftaskobjects"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view ctf task objects",
+    "content_type": 18,
+    "codename": "view_ctftaskobjects"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add user datas",
+    "content_type": 19,
+    "codename": "add_userdatas"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change user datas",
+    "content_type": 19,
+    "codename": "change_userdatas"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete user datas",
+    "content_type": 19,
+    "codename": "delete_userdatas"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view user datas",
+    "content_type": 19,
+    "codename": "view_userdatas"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add connection journal",
+    "content_type": 20,
+    "codename": "add_connectionjournal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change connection journal",
+    "content_type": 20,
+    "codename": "change_connectionjournal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete connection journal",
+    "content_type": 20,
+    "codename": "delete_connectionjournal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view connection journal",
+    "content_type": 20,
+    "codename": "view_connectionjournal"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "zll",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      61,
+      62,
+      63,
+      64,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      65,
+      66,
+      67,
+      68,
+      77,
+      78,
+      79,
+      80,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      13,
+      14,
+      15,
+      16,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "main",
+    "model": "file"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "main",
+    "model": "flagsfromunsafety"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "main",
+    "model": "team"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "main",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "challenge",
+    "model": "answer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "challenge",
+    "model": "challenge"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "challenge",
+    "model": "hashresponse"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "challenge",
+    "model": "hint"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "challenge",
+    "model": "quizz"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "challenge",
+    "model": "trueanswers"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "admin_tools",
+    "model": "xlsxes"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "bookstore",
+    "model": "book"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "bookstore",
+    "model": "ctftaskobjects"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "bookstore",
+    "model": "userdatas"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "bookstore",
+    "model": "connectionjournal"
+  }
+},
+{
+  "model": "main.file",
+  "pk": 127,
+  "fields": {
+    "file": "files/hex.txt",
+    "quizz_id": 21,
+    "for_team": "status:public"
+  }
+},
+{
+  "model": "main.file",
+  "pk": 128,
+  "fields": {
+    "file": "files/format_challenge.png",
+    "quizz_id": 22,
+    "for_team": "status:stegano_pub"
+  }
+},
+{
+  "model": "challenge.challenge",
+  "pk": 1,
+  "fields": {
+    "name": "Kiberhowpsuzlyk",
+    "owner": "skill",
+    "public": true,
+    "date_created": "2024-04-21T07:40:07.182Z",
+    "date_start": "2024-03-31T19:00:00Z",
+    "date_end": "2024-04-30T13:00:00Z",
+    "description": ""
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 3,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Inženeriň günäsi",
+    "question": "Programma inženerimiz gowy adam, ýöne öňden görüjilikli däl. Serwisdäki ähli maglumatlary tötänleýin bir algoritmiň esasynda gizlär ýaly etdi. Indi bolsa özi hem gizlin maglumatlaryň haýsy algoritmde ýazylandygyny bilenok. Size maglumatlary ýene öňki durkuna getirmäge kömek etmegiňizi haýyş edýäris.",
+    "point": 10,
+    "type_of_quizz": "Hash"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 4,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Kimiňki dogry?",
+    "question": "Iki sany işgärimiz haýsy doňdurma tagamynyň iň gowysydygy barada jedelleşdiler, ýöne hiç kimiň görmegini islemeýändikleri sebäpli ony ýeke-täk maglumat-teoretiki taýdan ygtybarly şifr bilen şifrlediler. Bagtymyza, edil şol bir açary gaýtadan ulandylar, dikeldip bilersiňizmi?",
+    "point": 20,
+    "type_of_quizz": "One Time Pad"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 5,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Dikeldiş",
+    "question": "Serwerimiz käbir näsazlyklar sebäpli birnäçe maglumatlary ulanylmajak ýagdaýa getirýär. Olar dikeltmek örän wajyp mesele, ýöne nähili usul bilen..?",
+    "point": 10,
+    "type_of_quizz": "Format Game"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 6,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Üns çekiji kitap",
+    "question": "Kitaphanada \"Записки о Галльской войне\" kitabyň arasynda aşakdaky faýldaky ýaly ýazgy tapylýar. Ol nämäni aňladyp biler?",
+    "point": 10,
+    "type_of_quizz": "Caesar"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 7,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Maglumat gorunda näsazlyk",
+    "question": "\"(ax ? b) ? 26\". Geçen CTF ýaryşyndan soň serweriň maglumat gorunyň birnäçe segmentinde bu ýazga duş geldik...",
+    "point": 20,
+    "type_of_quizz": "Affine"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 8,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Düşnüksiz sesler",
+    "question": "Iki günden bäri maglumat gorunda hiç hili many aňlatmaýan mp3 faýllary döräp başlady. Programma inženerimiziň aýdyşyna görä bu ýalňyşlyk däl... Ol näme sebäpden beýle pikir edýärkä?",
+    "point": 10,
+    "type_of_quizz": "Morse"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 9,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Rejewski",
+    "question": "Marian Rejewski aşakdaky faýlda bellenilen ýazgylara belki düşünerdi...",
+    "point": 15,
+    "type_of_quizz": "Enigma"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 10,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Maglumat çylşyrymlygy",
+    "question": "Maglumatlar repozitoriýalary üýtgeşik şahalanma eýe. Ony çözüp bilersiňmi?",
+    "point": 15,
+    "type_of_quizz": "Matreshka"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 13,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Ýylanjygyň oýny",
+    "question": "Pythonçymyz hiç kimiň düşünip bilmejek orun çalyşma oýunlaryny guramagy halaýar. Bu gezek ol öz dilende meşhur bolan bir algoritmiň esasynda baýdaklary gizläpdir",
+    "point": 10,
+    "type_of_quizz": "Transposition"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 15,
+  "fields": {
+    "challenge_id": 1,
+    "name": "URL üýtgemesi",
+    "question": "Käbir sowalnamalar aşakdaky QR URL-da geçiriler",
+    "point": 10,
+    "type_of_quizz": "QR"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 17,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Köpçüligi halamaýan maglumat",
+    "question": "Baýdaklar diňe käbir açar sözleriniň kömegi özüni belli edýär",
+    "point": 15,
+    "type_of_quizz": "RSA"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 19,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Hakeriň zalym oýuny",
+    "question": "Bitin maglumatlar birnäçe bölege bölünýär wirus tarapyndan bölünýär. Olary birleşdir",
+    "point": 10,
+    "type_of_quizz": "AES"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 20,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Patyşanyň kömekçisi",
+    "question": "Žilbert Baýardyň ýolbaşçylygyndaky döwlet adamynyň düzen algoritmi esasynda aşakdaky ýazgylar  emele gelýär",
+    "point": 10,
+    "type_of_quizz": "Vigenere"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 21,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Kitaphana",
+    "question": "amanmyrat atly ulanyjymyz kitaphana web-sahypasyny ulanýar, emma web-sahypa edilen iň soňky kiberhüjümiň esasynda ähli açar sözleri heşlenýär. Berlen heşiň  esasynda kitaphana ulanyjysynyň açar sözini tapmaly. Url: http://172.16.11.179:8000/bookstore/login/",
+    "point": 15,
+    "type_of_quizz": "Pentest"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 22,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Owadan surat",
+    "question": "Surata seredip oturan bir işgärimiziň ýanyna programmistimiz gelip suratda näsazlyk bardygyny kesgitledi. Ol näme üçin beýle pikir edýärkä?",
+    "point": 10,
+    "type_of_quizz": "Steganography"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 23,
+  "fields": {
+    "challenge_id": 1,
+    "name": "PEM näme?",
+    "question": "Baýdak generatorlarymyz üýtgeşik faýl formatynda açarlar döredip başlady...",
+    "point": 10,
+    "type_of_quizz": "RSA"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 24,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Aýaklanan harplar",
+    "question": "Elipbiý düşünjesi serweriň operatiw ýadynda üýtgeşik ýagdaýa gelýär. Ýazgylar şol ýagdaýda döredilen",
+    "point": 10,
+    "type_of_quizz": "Caesar"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 25,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Bimany Talaplar",
+    "question": "Serwerimize soňky döwürde hiç hili many aňlatmaýan rekuestler gelýär. Ajaýyp zatlaryň biri hem serweriň hemişe 200-nji status kody yzyna gaýtarmagy bolup durýar...",
+    "point": 10,
+    "type_of_quizz": "Hash"
+  }
+},
+{
+  "model": "challenge.quizz",
+  "pk": 26,
+  "fields": {
+    "challenge_id": 1,
+    "name": "Duzly sözler",
+    "question": "Programma inženerimiziň aýdyşyna görä ol öz gizlin resminamalarynda \"duz\" ulanýar",
+    "point": 10,
+    "type_of_quizz": "AES"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 1,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel.xlsx",
+    "uploaded": "2024-04-21T15:00:24.117Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 2,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_T37ln92.xlsx",
+    "uploaded": "2024-04-21T15:01:04.119Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 3,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_jtM4XIq.xlsx",
+    "uploaded": "2024-04-22T07:33:09.210Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 4,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_4PMhfS6.xlsx",
+    "uploaded": "2024-04-22T07:33:54.258Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 5,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_w4ojDXG.xlsx",
+    "uploaded": "2024-04-22T07:35:30.233Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 6,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_nU2JIUp.xlsx",
+    "uploaded": "2024-04-22T07:40:30.448Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 7,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_I2s26On.xlsx",
+    "uploaded": "2024-04-22T07:40:31.665Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 8,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel.xlsx",
+    "uploaded": "2024-04-22T07:43:33.781Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 9,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_TKrJf4I.xlsx",
+    "uploaded": "2024-04-25T13:58:20.032Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 10,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_RMaAdY8.xlsx",
+    "uploaded": "2024-04-25T14:01:35.320Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 11,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_CwnoxLw.xlsx",
+    "uploaded": "2024-04-25T14:05:09.540Z"
+  }
+},
+{
+  "model": "admin_tools.xlsxes",
+  "pk": 12,
+  "fields": {
+    "file": "xlsx/Лист_Microsoft_Excel_TKrJf4I.xlsx",
+    "uploaded": "2024-04-29T14:03:50.698Z"
+  }
+},
+{
+  "model": "bookstore.ctftaskobjects",
+  "pk": 1,
+  "fields": {
+    "username": "amanmyrat",
+    "password": "garayew",
+    "for_quizz": 21
+  }
+}
+]
